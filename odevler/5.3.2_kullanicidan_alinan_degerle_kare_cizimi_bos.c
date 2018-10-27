@@ -1,0 +1,31 @@
+# include <stdio.h>
+int main() {
+	int i=0, j=0, uzunluk=0;
+
+	do {	
+		printf("Ici bos kare cizdirmek icin 3-15 arasinda bir sayi giriniz.");
+		scanf("%d", &uzunluk);
+	
+	}while(uzunluk < 3 || uzunluk > 15);
+	
+	for (i=0; i < uzunluk; i++){
+		for (j=1; j < (uzunluk+1); j++){
+			if (i % uzunluk == 0 || i % uzunluk == uzunluk -1) {
+				if (j % uzunluk != 0)
+					printf("* ");
+				else 
+					printf("*");
+			}else {
+				if (j % uzunluk == 1){
+					printf("* ");
+
+				}else if (j % uzunluk == 0){
+					printf("*");
+
+				}else
+					printf("  ");
+			}
+		}
+		printf("\n");
+	}
+}
