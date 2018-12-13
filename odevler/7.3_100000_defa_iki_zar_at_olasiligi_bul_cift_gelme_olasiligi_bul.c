@@ -27,8 +27,8 @@ int main()
 			++cift_gelen_sayisi;
 	}
 
-	olasilik = (float)cift_gelen_sayisi / (float)tekrar;
-	printf("Atilan zar sayisi: %d\nKac kere cift geldi: %d\nIkisinin de ayni gelme olasiligi: %.3f\n", tekrar, cift_gelen_sayisi, olasilik);
+	olasilik = 100 * ((float)cift_gelen_sayisi / (float)tekrar);
+	printf("Atilan zar sayisi: %d\nKac kere cift geldi: %d\nIkisinin de ayni gelme olasiligi: %.2f%%\n", tekrar, cift_gelen_sayisi, olasilik);
 }
 
 
