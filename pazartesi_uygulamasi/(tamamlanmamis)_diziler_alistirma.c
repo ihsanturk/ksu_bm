@@ -3,7 +3,7 @@
 //Prototipler
 int *sondan_kucuk_elemanlar(int kac_tane, int dizi[], int adet);
 int dizi_sirala(int dizi[], int adet);
-void diziyi_ekrana_bas(int dizi[], int kac_tane, int adet);
+void diziyi_ekrana_bas(int dizi[], int adet);
 
 
 //Main

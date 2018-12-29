@@ -16,7 +16,6 @@ int main()
 	cevap = islower('a'); //Kucuk harf olup olmadigini kontrol et
 	cevap = toupper('a'); //Buyuk harfe donustur //char tipinde deger verir
 	cevap = tolower('A'); //Kucuk harfe donustur //char tipinde deger verir
-
 	printf("%c", cevap);
 }
 
