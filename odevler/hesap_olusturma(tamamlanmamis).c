@@ -4,25 +4,14 @@
  * Sifre minimum 7 karakter olacak
  * Kullanicinin adini ve sifresini alarak dogrulugunu kontrol et
 */
+
 #include <stdio.h>
 #include <ctype.h>
 
-/*
-void *dizi_olustur(char dizi[], int boyut, char karakter)
-{
-	char *dizi[boyut] = {0};
-
-	for(int i = 0; i < boyut; i++)
-	{
-		*dizi[i] = karakter;
-	}
-}
-*/
-
 int main()
 {
-	char ka[30] = {0},
-	     s[30] = {';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';', ';'};
+	char ka[30],
+	     s[30];
 
         int k_boyut = 0,
 	    s_boyut = 0,
@@ -38,7 +27,7 @@ int main()
 
 		//Boyut sayimi
 		k_boyut = 0;
-		while(ka[k_boyut] != 0)
+		while(ka[k_boyut] != '\0')
 		{
 			++k_boyut;
 		}
@@ -57,36 +46,46 @@ int main()
 		printf("Sifre giriniz: ");
 		gets(s);
 
-/*
 		//Boyut sayimi
 		s_boyut = 0;
-		while(s[s_boyut] != 0)
+		while(s[s_boyut] != '\0')
 		{
 			++s_boyut;
 		}
-		*/
 
-		//Boyut sayimi
-		s_boyut = 0;
-		for(int i = 0; i < 30; i++)
-		{
-			if (isalnum(s[i]) != 0)
-			{	
-				s_boyut = 0;
-				break;
-			}
-			else
-				s_boyut++;
-		}
-		/*
 		//Sayi disindaki karakterlerin kontrolu
 		karakter_var = 0;
 		for (int i = 0; i < s_boyut; i++)
 		{
-			if (isalnum(s[i]) != 0) karakter_var = 1;
+			if (!isalnum(s[i])) karakter_var = 1;
 		}
-		*/
-	}while(s_boyut < 7);// || karakter_var == 1);
+	}while(s_boyut < 7 || karakter_var == 1);
 
 
+
+	char username[30],
+		 password[30];
+
+	printf("\nKullnici adiniz: ");
+	gets(username);
+	printf("Sifre adiniz: ");
+	gets(password);
+
+	int i = 0;
+
+	while(i < 30)
+	{
+		printf("i    : %d\n\n", i);
+		printf("kosul: %d", ka[i] == username[i]);
+		if (ka[i] == username[i])// && s[i] == password[i])
+		{
+			++i;
+			continue;
+		}else {
+			printf("\nYanlis kapi.\n");
+			break;
+		}
+		printf("\nHosgeldiniz %s.\n", username);
+		printf("%d", i);
+	}
 }

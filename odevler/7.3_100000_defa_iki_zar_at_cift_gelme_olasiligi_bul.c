@@ -17,7 +17,7 @@ int main()
 
 	srand(time(NULL));
 
-	tekrar = 100000;
+	tekrar = 1 000 000 000;
 
 	for (int i=1; i < tekrar; i++)
 	{
