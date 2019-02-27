@@ -17,7 +17,7 @@ class Nokta
             y = yeni_y;
         }
     public: 
-        bool orjinde_mi()
+        bool orijinde_mi()
         {
             if(x == 0 && y == 0)
             {
@@ -41,7 +41,7 @@ int main(int argc, char* argv[])
     n1.duzenle(1, 2);
     n2.duzenle(9, 2);
 
-    if(n1.orjinde_mi())
+    if(n1.orijinde_mi())
     {
         n1.yaz();
         std::cout << " Orjinde." << std::endl;
