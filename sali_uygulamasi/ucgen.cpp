@@ -37,6 +37,7 @@ int main(int argc, char* argv[])
     float cevre_;
     float alan_;
 	Ucgen u1;
+
     u1.duzenle(3, 4, 5, 3);
 
     std::cout << "Ucgen boyutlari: "; u1.yaz();
