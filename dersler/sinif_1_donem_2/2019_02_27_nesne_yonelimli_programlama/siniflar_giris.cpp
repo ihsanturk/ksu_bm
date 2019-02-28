@@ -4,19 +4,21 @@
 class Nokta
 {
     public: 
+        //xAL ---> koordinat duzleminin alt siniri
         float x, y, xAL, xUL, yAL, yUL; 
-    public: 
-        void yaz()
+
+
+        void konum()
         {
             std::cout << "[" << x << ", " << y << "]";
         }
-    public: 
+
         void duzenle(float yeni_x, float yeni_y)
         {
             x = yeni_x;
             y = yeni_y;
         }
-    public: 
+
         bool orijinde_mi()
         {
             if(x == 0 && y == 0)
@@ -26,32 +28,35 @@ class Nokta
                 return 0;
             }
         }
-    public: 
+
         float mesafe(Nokta n)
         {
-            return abs(sqrt((x - n.x)*(x - n.x))+sqrt((y - n.y)*(y - n.y)));
+            float msf = sqrt(abs((x - n.x) * (x - n.x)) + abs((y - n.y) * (y - n.y)));
+            return msf;
         }
 };
 
 //Main
 int main(int argc, char* argv[])
 {
-	Nokta n1, Nokta n2;
+    //n1 ve n2 birer nesnedir.
+	Nokta n1;
+    Nokta n2; 
 
-    n1.duzenle(1, 2);
-    n2.duzenle(9, 2);
+    n1.duzenle(3, 1);
+    n2.duzenle(6, 18);
 
     if(n1.orijinde_mi())
     {
-        n1.yaz();
-        std::cout << " Orjinde." << std::endl;
+        n1.konum();
+        std::cout << " Orjinde.\n" << std::endl;
     } else {
-        n1.yaz();
-        std::cout << " Orijinde degil." << std::endl;
+        n1.konum();
+        std::cout << " Orijinde degil.\n" << std::endl;
     }
 
-    n1.yaz(); std::cout << "<--->"; n2.yaz();
-    std::cout << "\nAradaki mesafe: " << n1.mesafe(n2) << std::endl;
+    n1.konum(); std::cout << "<--->"; n2.konum();
+    std::cout << "\n\nAradaki mesafe: " << n1.mesafe(n2) << std::endl;
 
     return 0;
 }
