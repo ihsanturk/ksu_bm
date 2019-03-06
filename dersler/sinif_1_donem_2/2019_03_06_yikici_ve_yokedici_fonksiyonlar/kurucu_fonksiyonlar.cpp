@@ -32,7 +32,7 @@ class Nokta
 
         void git(int x_yeni, int y_yeni)
         {
-            sinira_getir(int x_yeni, int y_yeni);
+            sinira_getir(x_yeni, y_yeni);
         }
 
     private: void sinira_getir(int x_yeni, int y_yeni)
@@ -54,7 +54,7 @@ class Nokta
 
     virtual ~Nokta()
         {
-            delete x, y, xAL, xUL, yAL, yUL;
+            //Nesne cikisi
         }
 };
 
