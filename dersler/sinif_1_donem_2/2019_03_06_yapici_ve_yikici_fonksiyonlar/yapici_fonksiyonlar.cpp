@@ -9,7 +9,7 @@ class Nokta
         //xAL ---> x icin alt siniri
         float x, y, xAL=0, xUL=10, yAL=0, yUL=20; 
 
-        //Constructor fonksiyonu
+        //Constructor Function / Yapici fonksiyonu
         Nokta(int x_, int y_)
         {
             sinira_getir(x_, y_);
