@@ -1,4 +1,6 @@
-//verilen iki deger arasindaki asal sayilari bulma
+// Verilen iki deger arasindaki asal sayilari bulma
+//
+
 #include<iostream>
  
 using namespace std;
