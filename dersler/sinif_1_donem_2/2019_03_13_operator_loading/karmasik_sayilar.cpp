@@ -12,15 +12,27 @@ public:
     i = i_;
   }
 
-  void yaz() { 
-    std::cout << r << " + " << i << "i" << std::endl; 
+  Karmasik operator+(Karmasik &x) { return Karmasik(r + x.r, i + x.i); }
+  Karmasik operator-(Karmasik &x) { return Karmasik(r - x.r, i - x.i); }
+
+  void operator=(Karmasik &x) {
+    r = x.r;
+    i = x.i;
   }
+
+  void yaz() { std::cout << r << " + " << i << "i" << std::endl; }
 };
 
 // Main
 int main(int argc, char *argv[]) {
   Karmasik a(5, 3);
+  Karmasik b = a;
   a.yaz();
-}
+  b.yaz();
 
-// Functions
+  Karmasik c = a + b;
+  c.yaz();
+
+  Karmasik d = c - a;
+  d.yaz();
+}
