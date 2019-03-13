@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 
+
 //Classes
 class Cember
 {
@@ -10,7 +11,10 @@ class Cember
 
         void duzenle(float r_)
         {
-            r = r_;
+            if(r_ <= 0)
+                std::cerr << "Cevre 0'a esit veya kucuk olamaz.";
+            else 
+                r = r_;
         }
 
         float cevre()
@@ -25,9 +29,10 @@ class Cember
 
         void yaz()
         {
-            std::cout << "[" << r << "]";
+            std::cout << r;
         }
 };
+
 
 //Main
 int main(int argc, char* argv[])
@@ -36,9 +41,9 @@ int main(int argc, char* argv[])
     float alan_;
     Cember c1;
 
-    c1.duzenle(3);
+    c1.duzenle(5);
 
-    std::cout << "Cember boyutlari: "; c1.yaz(); std::cout << std::endl;
+    std::cout << "Yaricap: "; c1.yaz(); std::cout << std::endl;
     cevre_ = c1.cevre();
     alan_ = c1.alan();
 

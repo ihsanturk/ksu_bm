@@ -91,4 +91,5 @@ int main(int argc, char* argv[])
     p2->git(3, 1);
 
     std::cout << "p2: "; p2->konum(); std::cout << std::endl;
+    std::cout << "p1: "; p1.konum(); std::cout << std::endl;
 }
