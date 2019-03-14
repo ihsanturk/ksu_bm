@@ -16,6 +16,7 @@ class prime
 			min = 0;					
 			max = 100;
 		}
+    /*
 		prime(int k, int b)//parametreli constructor
 		{
 			min=k;
@@ -26,6 +27,7 @@ class prime
 			min = p2.min; 
 			max = p2.max; 
 		}
+    */
 		void minMaxYazdir()
 		{
 			cout << "\nmin= " <<  min<< ", max= " << max << endl;
@@ -36,7 +38,7 @@ class prime
 		    for(num = k;num<=b;num++)
 			{
 		        count = 0;
-		        for(i=2;i<=num/2;i++)
+		        for(i=2; i <= num / 2; i++)
 				{
 		            if(num%i==0){
 		                count++;
