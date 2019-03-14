@@ -12,10 +12,10 @@ public:
     i = i_;
   }
 
+  // Iki karmasik sayi ile toplama islemi yapildiginda yapilacak islem:
   Karmasik operator+(Karmasik &x) { return Karmasik(r + x.r, i + x.i); }
   Karmasik operator-(Karmasik &x) { return Karmasik(r - x.r, i - x.i); }
-
-  void operator=(Karmasik &x) {
+  void     operator=(Karmasik &x) {
     r = x.r;
     i = x.i;
   }
