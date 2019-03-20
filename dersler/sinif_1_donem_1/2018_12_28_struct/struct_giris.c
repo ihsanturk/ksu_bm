@@ -1,32 +1,24 @@
 #include <stdio.h>
 
-//Structs
+// Structs
 typedef struct ogrenci {
-        int vize,
-            final,
-            ort;
+  int vize, final, ort;
 
-        float ortalama;
+  float ortalama;
 
-        char ad[30],
-             soyad[30],
-             no[30];
-}ogr;
+  char ad[30], soyad[30], no[30];
+} ogr;
 
-//Prototipler
+// Prototipler
 
-//Main
-int main()
-{
-        ogr ali;
+// Main
+int main() {
+  ogr ali;
 
-        ali.vize = 100;
-        ogrenci_yaz(ali);
+  ali.vize = 100;
+  ogrenci_yaz(ali);
 }
 
-//Fonksiyonlar
-void ogrenci_yaz(ogr a)
-{
-        printf("Vize: %d\nFinal: %d", a.vize, a.final)
-}
+// Fonksiyonlar
+void ogrenci_yaz(ogr a) { printf("Vize: %d\nFinal: %d", a.vize, a.final) }
 ~
