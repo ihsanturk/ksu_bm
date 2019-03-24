@@ -1,5 +1,6 @@
 #include <iostream>
 
+// Bu dosya yarimdir.
 //Structures
 typedef struct
 {
