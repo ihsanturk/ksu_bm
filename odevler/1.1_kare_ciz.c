@@ -1,5 +1,0 @@
-#include <stdio.h>
-int main(){
-	printf("\n* * * * *\n*\t*\n*\t*\n*\t*\n* * * * *\n\n");
-	return 0;
-}
