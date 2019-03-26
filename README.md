@@ -119,8 +119,6 @@ Soldaki menüden derslerin listesini bulabilirsiniz. Sağ üstteki arama kutusun
   * [Overload](carsamba_uygulamasi/overload.cpp.md)
   * [Tam Bölünenleri Bul](carsamba_uygulamasi/tam_bolunenleri_bul.cpp.md)
   * [Üçgen](carsamba_uygulamasi/ucgen.cpp.md)
-  * [4.2 Kullanıcıdan Alınan Sayıların Maksimumu Ortalaması ve Toplamı](carsamba_uygulamasi/4.2_kullanicidan_alinan_sayilarin_maks_ort_top.cpp.md)
-  * [5.1 Sayının Faktöriyeli](carsamba_uygulamasi/5.1_sayinin_faktoriyeli.cpp.md)
 * [Perşembe Uygulaması](#)
   * [Asal Sayılar Zeynep Hoca](persembe_uygulamasi/asal_sayilar_zeynep_hoca.cpp.md)
   * [Asal Sayılar](persembe_uygulamasi/asal_sayilar.cpp.md)
