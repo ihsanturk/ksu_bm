@@ -50,3 +50,4 @@ int main() {
   std::cout << "k2: "; k2.yaz();
   std::cout << "k3: "; k3.yaz();
 }
+```
