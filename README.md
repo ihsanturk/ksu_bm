@@ -125,5 +125,3 @@ Bu projede bölümle ile ilgili materyalleri bulabilirsiniz.
   * [Asal Sayılar Zeynep Hoca](persembe_uygulamasi/asal_sayilar_zeynep_hoca.cpp.md)
   * [Asal Sayılar](persembe_uygulamasi/asal_sayilar.cpp.md)
   * [Kutu Sınıfı](persembe_uygulamasi/kutu_sinifi.cpp.md)
-
-[Ali İhsan Türkmenoğlu](https://github.com/ihsanturk) tarafından yazılmıştır.
