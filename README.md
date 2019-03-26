@@ -4,7 +4,7 @@
 
 Bu projede bölümle ile ilgili materyalleri bulabilirsiniz.
 
-## Tum dosyalar:
+## Tüm dosyalar:
 * [Dersler](#)
   * [Sınıf 1 Dönem 1](#)
     * [Hesap Makinesi](#)
