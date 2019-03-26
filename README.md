@@ -1,6 +1,6 @@
 # KSU Bilgisayar Mühendisliği
 
-Soldaki menüden derslerin listesini bulabilirsiniz. Sağ üstteki arama kutusundan da ders isimlerini veya dosyaların icerisini arayabilirsiniz.  
+Soldaki menüden derslerin listesini bulabilirsiniz. Sağ üstteki arama kutusundan da ders isimlerini veya dosyaların içerisindeki kelimelerden arama yapabilirsiniz.
 
 ## Tum dosyalar:
 
