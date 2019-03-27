@@ -1,10 +1,11 @@
-# KSU Bilgisayar Mühendisliği
+# Kahramanmaraş Sütçü İmam Üni. Bilgisayar Mühendisliği
 
 Soldaki menüden derslerin listesini bulabilirsiniz. Sağ üstteki arama kutusundan da ders isimlerini veya dosyaların içerisindeki kelimelerden arama yapabilirsiniz.
 
 ## Hakkında
 
-Bu proje [Ahmad Al Maaz](https://www.news47ell.com) tarafından sağlanmıştır ve [Ali İhsan Turkmenoglu](https://github.com/ihsanturk) tarafından yazılmıştır.
+Bu proje [Ahmad Al Maaz](https://www.news47ell.com) tarafından sağlanmıştır ve [Ali İhsan Türkmenoğlu](https://github.com/ihsanturk) tarafından yazılmıştır.
+Bu sayfadaki dersler Kahramanmaraş Sütçü İmam Üniversitesi'nde verilmiştir.
 
 ## Tüm dosyalar:
 * [Dersler](#)
@@ -127,3 +128,4 @@ Bu proje [Ahmad Al Maaz](https://www.news47ell.com) tarafından sağlanmıştır
   * [Asal Sayılar Zeynep Hoca](persembe_uygulamasi/asal_sayilar_zeynep_hoca.cpp.md)
   * [Asal Sayılar](persembe_uygulamasi/asal_sayilar.cpp.md)
   * [Kutu Sınıfı](persembe_uygulamasi/kutu_sinifi.cpp.md)
+
