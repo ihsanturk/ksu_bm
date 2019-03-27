@@ -2,7 +2,11 @@
 
 Soldaki menüden derslerin listesini bulabilirsiniz. Sağ üstteki arama kutusundan da ders isimlerini veya dosyaların içerisindeki kelimelerden arama yapabilirsiniz.
 
-## Tum dosyalar:
+## Hakkında
+
+Bu proje [Ahmad Al Maaz](https://www.news47ell.com) tarafından sağlanmıştır ve [Ali İhsan Turkmenoglu](https://github.com/ihsanturk) tarafından yazılmıştır.
+
+## Tüm dosyalar:
 * [Dersler](#)
   * [Sınıf 1 Dönem 1](#)
     * [Hesap Makinesi](#)
@@ -123,9 +127,3 @@ Soldaki menüden derslerin listesini bulabilirsiniz. Sağ üstteki arama kutusun
   * [Asal Sayılar Zeynep Hoca](persembe_uygulamasi/asal_sayilar_zeynep_hoca.cpp.md)
   * [Asal Sayılar](persembe_uygulamasi/asal_sayilar.cpp.md)
   * [Kutu Sınıfı](persembe_uygulamasi/kutu_sinifi.cpp.md)
-
-## Hakkında
-
-Bu projede bölümle ile ilgili materyalleri bulabilirsiniz.
-
-Bu proje [Ahmad Al Maaz](https://www.news47ell.com) tarafından sağlanmıştır ve [Ali İhsan Turkmenoglu](https://github.com/ihsanturk) tarafından yazılmıştır.
