@@ -1,5 +1,6 @@
 ```c
 #include <stdio.h>
+
 int main(){
 	float x, y, sum;
 	printf("\nLutfen bir sayi giriniz: ");
@@ -10,5 +11,4 @@ int main(){
 
 	sum = x + y;
 	printf("\nSayilarin toplami: %.3f\n\n",sum);
-}
-```
+}```

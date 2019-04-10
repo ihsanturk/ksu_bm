@@ -41,7 +41,7 @@ public:
 };
 
 int main() {
-  asal a1(0, 50);
+  asal a1(90, 100);
   a1.asal_bul();
   return 0;
 }
