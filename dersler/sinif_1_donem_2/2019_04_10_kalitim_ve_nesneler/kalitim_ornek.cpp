@@ -70,11 +70,10 @@ public:
   int         gorev_yili;
   
   void goster() {
-    Ogretmen::goster() {
-      std::cout << "Okulu:      " << okul << "\n"
-                << "Unavni:     " << unvan << "\n"
-                << "Gorev Yili: " << gorev_yili << std::endl;
-    }
+    Ogretmen::goster();
+    std::cout << "Okulu:      " << okul << "\n"
+              << "Unavni:     " << unvan << "\n"
+              << "Gorev Yili: " << gorev_yili << std::endl;
   }
 
   void guncelle(std::string adsoyad_, 
@@ -91,31 +90,32 @@ public:
     deneyim    = deneyim_;
     yas        = yas_;
     okul       = okul_;
-    unvan      = unvan;
-    gorev_yili = gorev_yili;
+    unvan      = unvan_;
+    gorev_yili = gorev_yili_;
   }
 };
 
 
 //Main
 int main(int argc, char *argv[]) {
-  Ogretmen hasan();
+  Ogretmen hasan;
   hasan.guncelle("Hasan badem",
                  "Erkek",
-                 "Programlamaya Giris",
+                 "Programlama",
                  "Doktor", 
                  30);
   hasan.goster();
 
-  Idareci taner();
-  Idareci taner.guncelle("Ibrahim Taner",
-                         "Erkek",
-                         "Programlama",
-                         "Profsor", 
-                         40,
-                         "KSU",
-                         "Rektor Yrd.",
-                         3);
+  std::cout << "\n";
+  Idareci taner;
+  taner.guncelle("Ibrahim Taner",
+                 "Erkek",
+                 "Programlama",
+                 "Profesor", 
+                 40,
+                 "KSU",
+                 "Rektor Yrd.",
+                 3);
   taner.goster();
   return 0;
 }
