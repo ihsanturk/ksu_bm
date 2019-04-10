@@ -1,5 +1,5 @@
 <div align="center">
-	<img width="200" height="200" src=".gitbook/assets/ksu.png" alt="Kahramanmaraş Sütçü İmam Üniversitesi">
+	<img width="200" height="200" src=".gitbook/assets/ksu_logo.png" alt="Kahramanmaraş Sütçü İmam Üniversitesi">
 	<h2>Kahramanmaraş Sütçü İmam Üni. Bilgisayar Mühendisliği</h2>
 </div>
 
