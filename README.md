@@ -8,6 +8,7 @@ Bu proje [Ahmad Al Maaz](https://www.news47ell.com) tarafından sağlanmıştır
 Bu sayfadaki dersler Kahramanmaraş Sütçü İmam Üniversitesi'nde verilmiştir.
 
 ## Tüm dosyalar:
+
 * [Dersler](#)
   * [Sınıf 1 Dönem 1](#)
     * [Hesap Makinesi](#)
@@ -90,6 +91,9 @@ Bu sayfadaki dersler Kahramanmaraş Sütçü İmam Üniversitesi'nde verilmişti
     * [Operator Overloading](#)
       * [Karmaşık Sayılar](dersler/sinif_1_donem_2/2019_03_13_operator_overloading/karmasik_sayilar.cpp.md)
       * [Stringler Ve Operatörler](dersler/sinif_1_donem_2/2019_03_13_operator_overloading/stringler_ve_operatorler.cpp.md)
+    * [Kalitim ve Nesneler](#)
+      * [Karmaşık Sayılar](dersler/sinif_1_donem_2/2019_04_10_kalitim_ve_nesneler/kalitim.cpp.md)
+      * [Kalitim Ornek](dersler/sinif_1_donem_2/2019_04_10_kalitim_ve_nesneler/kalitim_ornek.cpp.md)
 * [Ödevler](#)
   * [1.1 Kare Çiz](odevler/1.1_kare_ciz.c.md)
   * [1.2 Sayıları Çarp](odevler/1.2_sayilari_carp.c.md)
@@ -124,8 +128,10 @@ Bu sayfadaki dersler Kahramanmaraş Sütçü İmam Üniversitesi'nde verilmişti
   * [Overload](carsamba_uygulamasi/overload.cpp.md)
   * [Tam Bölünenleri Bul](carsamba_uygulamasi/tam_bolunenleri_bul.cpp.md)
   * [Üçgen](carsamba_uygulamasi/ucgen.cpp.md)
+  * [Kalıtım ve Nesneler Zeynep Hoca](carsamba_uygulamasi/zeynep_hoca_kalitim_hastalik_teshis_sistemi.cpp.md)
+  * [Kalıtım ve Nesneler](carsamba_uygulamasi/kalitim_hastalik_teshis_sistemi.cpp.md)
 * [Perşembe Uygulaması](#)
   * [Asal Sayılar Zeynep Hoca](persembe_uygulamasi/asal_sayilar_zeynep_hoca.cpp.md)
   * [Asal Sayılar](persembe_uygulamasi/asal_sayilar.cpp.md)
   * [Kutu Sınıfı](persembe_uygulamasi/kutu_sinifi.cpp.md)
-
+  * [Asal Sayilar](persembe_uygulamasi/asal_sayilar.c.md)
