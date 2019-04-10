@@ -3,8 +3,9 @@
 //Classes
 class Teshis {
 public:
-  int doktor_t[5];
-  int sistem_t[5];
+  int boyut = 6;
+  int doktor_t[6];
+  int sistem_t[6];
 
   //Constr.
   Teshis(){
@@ -14,7 +15,6 @@ public:
     doktor_t[3] = 4;
     doktor_t[4] = 5;
     doktor_t[5] = 4;
-
 
     sistem_t[0] = 2;
     sistem_t[1] = 3;
@@ -27,7 +27,6 @@ public:
 
 class Olcum: public Teshis {
 public:
-  int boyut = 5; // listedeki eleman sayisi
   float yuzde = boyut;
 
   int dogruluk() {
@@ -46,6 +45,9 @@ int main(int argc, char *argv[]) {
 	Teshis tes_nesne;
   Olcum olc_nesne;
 
-  std::cout << "Sistemin dogrulugu: "<< olc_nesne.dogruluk() << "%" << std::endl;
+  std::cout << "Sistemin dogrulugu: "
+            << olc_nesne.dogruluk() 
+            << "%" 
+            << std::endl;
 
 }
