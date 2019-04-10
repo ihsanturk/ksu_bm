@@ -1,4 +1,7 @@
-# Kahramanmaraş Sütçü İmam Üni. Bilgisayar Mühendisliği
+<div align="center">
+	<img width="200" height="200" src=".gitbook/assets/ksu.png" alt="Kahramanmaraş Sütçü İmam Üniversitesi">
+	<h2>Kahramanmaraş Sütçü İmam Üni. Bilgisayar Mühendisliği</h2>
+</div>
 
 Soldaki menüden derslerin listesini bulabilirsiniz. Sağ üstteki arama kutusundan da ders isimlerini veya dosyaların içerisindeki kelimelerden arama yapabilirsiniz.
 
