@@ -121,6 +121,8 @@ Bu projede bölümle ile ilgili materyalleri bulabilirsiniz.
   * [Overload](carsamba_uygulamasi/overload.cpp)
   * [Tam Bölünenleri Bul](carsamba_uygulamasi/tam_bolunenleri_bul.cpp)
   * [Üçgen](carsamba_uygulamasi/ucgen.cpp)
+  * [Kalıtım ve Nesneler Zeynep Hoca](carsamba_uygulamasi/zeynep_hoca_kalitim_hastalik_teshis_sistemi.cpp)
+  * [Kalıtım ve Nesneler](carsamba_uygulamasi/kalitim_hastalik_teshis_sistemi.cpp)
 * [Perşembe Uygulaması](#)
   * [Asal Sayılar Zeynep Hoca](persembe_uygulamasi/asal_sayilar_zeynep_hoca.cpp)
   * [Asal Sayılar](persembe_uygulamasi/asal_sayilar.cpp)
