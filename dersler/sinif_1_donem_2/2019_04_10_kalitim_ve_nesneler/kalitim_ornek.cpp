@@ -9,23 +9,23 @@
  * 
  * Yapi su sekilde olacak:
  *
- * Ogretmen:
+ * class Ogretmen:
  *   |---> Adsoyad
  *   |---> Cinsiyet
- *   |---> brans
- *   |---> deneyim
- *   |---> yas
- *
- * Idareci:
- *   |---> Okul
- *   |---> Unvan
- *   |---> Sure
+ *   |---> Brans
+ *   |---> Deneyim
+ *   |---> Yas
+ *   |
+ *   class Idareci:
+ *     |---> Okul
+ *     |---> Unvan
+ *     |---> Sure
  *
  * Burada Idareci sinifini Ogretmen sinifinin
  * bir alt sinifi olarak kabul ettik. Yani Idareci
  * sini ogretmen sinifinin tum ozelliklerini ve
- * fonksiyonlarini (metodlarini) ve ayrica kendine has
- * ozellikleri ve metodlari da icerecektir.
+ * fonksiyonlarini (metotlarini) ve ayrica kendine has
+ * ozellikleri ve metotlari da icerecektir.
  *
  */
 
@@ -37,14 +37,30 @@ public:
   std::string cinsiyet;
   std::string brans;
   std::string deneyim;
+  std::string unvan;
   int         yas;
 
-  // Class Methods (Sinif Metodlari)
+  Ogretmen(std::string adsoyad_, 
+           std::string cinsiyet_, 
+           std::string brans_,
+           std::string deneyim_,
+           std::string unvan_,
+           int yas_) {
+    adsoyad  = adsoyad_;
+    cinsiyet = cinsiyet_;
+    brans    = brans_;
+    deneyim  = deneyim_;
+    unvan    = unvan_;
+    yas      = yas_;
+  }
+
+  // Class Methods (Sinif Metotlari)
   void goster() {
     std::cout << "Adi soyadi: " << adsoyad  << "\n"
               << "Cinsiyeti:  " << cinsiyet << "\n"
               << "Bransi:     " << brans    << "\n"
               << "Deneyimi:   " << deneyim  << "\n"
+              << "Unvani:     " << unvan    << "\n"
               << "Yasi:       " << yas      << std::endl;
   }
 
@@ -52,11 +68,14 @@ public:
                 std::string cinsiyet_, 
                 std::string brans_,
                 std::string deneyim_,
-                int yas_) {
+                std::string unvan_,
+                int yas_)
+  {
     adsoyad  = adsoyad_;
     cinsiyet = cinsiyet_;
     brans    = brans_;
     deneyim  = deneyim_;
+    unvan    = unvan_;
     yas      = yas_;
   }
 };
@@ -66,13 +85,31 @@ class Idareci: public Ogretmen {
 public:
   // Class Attributes (Sinif Ozellikleri)
   std::string okul;
-  std::string unvan;
   int         gorev_yili;
+
+  Idareci(std::string adsoyad_, 
+          std::string cinsiyet_, 
+          std::string brans_,
+          std::string deneyim_,
+          std::string unvan_,
+          int         yas_,
+          std::string okul_, 
+          int gorev_yili_) {
+    Ogretmen::Ogretmen(adsoyad_, cinsiyet_, 
+                       brans_, deneyim_,
+                       unvan_, yas_);
+    okul       = okul_;
+    gorev_yili = gorev_yili_;
+  }
+  /*
+   * TODO
+   * Constructor ile ilgili hata var.
+   */
+
   
   void goster() {
     Ogretmen::goster();
     std::cout << "Okulu:      " << okul << "\n"
-              << "Unavni:     " << unvan << "\n"
               << "Gorev Yili: " << gorev_yili << std::endl;
   }
 
@@ -80,10 +117,11 @@ public:
                 std::string cinsiyet_, 
                 std::string brans_,
                 std::string deneyim_,
+                std::string unvan_, 
                 int yas_,
                 std::string okul_, 
-                std::string unvan_, 
-                int gorev_yili_) {
+                int gorev_yili_) 
+  {
     adsoyad    = adsoyad_;
     cinsiyet   = cinsiyet_;
     brans      = brans_;
@@ -98,23 +136,41 @@ public:
 
 //Main
 int main(int argc, char *argv[]) {
-  Ogretmen hasan;
+  Ogretmen hasan("Hasan badem",
+                 "Erkek",
+                 "Programlama",
+                 "Doktor", 
+                 "Ogretmen", 
+                 25);
+  std::cout << "hasan nesnesi turedi." << std::endl;
+  hasan.goster();
+
   hasan.guncelle("Hasan badem",
                  "Erkek",
                  "Programlama",
                  "Doktor", 
+                 "Uzman Ogretmen", 
                  30);
+  std::cout << "hasan nesnesi guncellendi." << std::endl;
   hasan.goster();
 
   std::cout << "\n";
-  Idareci taner;
+
+  Idareci taner("Ibrahim Taner",
+                 "Erkek",
+                 "Programlama",
+                 "Profesor", 
+                 "Rektor Yrd.",
+                 40,
+                 "KSU",
+                 3);
   taner.guncelle("Ibrahim Taner",
                  "Erkek",
                  "Programlama",
                  "Profesor", 
-                 40,
-                 "KSU",
                  "Rektor Yrd.",
+                 45,
+                 "KSU",
                  3);
   taner.goster();
   return 0;

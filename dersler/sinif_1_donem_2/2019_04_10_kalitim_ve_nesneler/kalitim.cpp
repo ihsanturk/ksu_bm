@@ -11,12 +11,12 @@ class TemelSinif:
     std::cout << "Ornek kodlar..." << std::endl;
   }
 
-  // Class Methods (Sinif Metodlari)
-  void bazi_metodlar() {
+  // Class Methods (Sinif Metotlari)
+  void bazi_metotlar() {
     std::cout << "Ornek kodlar..." << std::endl;
   }
 
-  void bazi_metodlar() {
+  void bazi_metotlar() {
     std::cout << "Ornek kodlar..." << std::endl;
   }
 
@@ -36,12 +36,12 @@ class AltSinif: public TemelSinif
      * */
   }
 
-  // Class Methods (Sinif Metodlari)
-  void bazi_metodlar() {
+  // Class Methods (Sinif Metotlari)
+  void bazi_metotlar() {
     std::cout << "Ornek kodlar..." << std::endl;
   }
 
-  void bazi_metodlar() {
+  void bazi_metotlar() {
     std::cout << "Ornek kodlar..." << std::endl;
   }
 
