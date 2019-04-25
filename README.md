@@ -60,6 +60,7 @@ Bu sayfadaki dersler Kahramanmaraş Sütçü İmam Üniversitesi'nde verilmişti
         * [C++ ile Asal Sayılar](Sinif1/Bahar/Uygulama/Persembe/asal_sayilar.cpp.md)
         * [C ile Asal Sayılar](Sinif1/Bahar/Uygulama/Persembe/asal_sayilar.c.md)
         * [Asal Sayılar Zeynep Hoca](Sinif1/Bahar/Uygulama/Persembe/asal_sayilar_zeynep_hoca.cpp.md)
+        * [Dosya İşlemleri Sınıfı](Sinif1/Bahar/Uygulama/Persembe/dosya_islemleri.cpp.md)
         * [Kutu Sınıfı](Sinif1/Bahar/Uygulama/Persembe/kutu_sinifi.cpp.md)
         * [Sıkıştırma](Sinif1/Bahar/Uygulama/Persembe/run_lenght_encoding.cpp.md)
         * [Kalıtım Zeynep Hoca](Sinif1/Bahar/Uygulama/Persembe/run_lenght_encoding_zeynpe_hoca.cpp.md)
