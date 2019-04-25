@@ -94,9 +94,10 @@ int main(int argc, char *argv[]) {
   dosya.harf_harf_yaz(my_name);
   dosya.oku();
 //  dosya.sil();
-  dosya.guncelle("a", "A");
-//  dosya.oku();
-  dosya.guncelle("i", "I");
-  dosya.guncelle("l", "L");
+  dosya.guncelle("a", "A"); // a'lari A yap
+  dosya.guncelle("i", "I"); // i'leri I yap
+  dosya.guncelle("l", "L"); // l'leri L yap
+  std::cout << "\nYeni hali:\n";
+  dosya.oku();
 }
 ```

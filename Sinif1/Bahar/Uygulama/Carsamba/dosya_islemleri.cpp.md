@@ -2,8 +2,6 @@
 /*
  * Konu: Dosya İşlemleri Sınıfı
  * Tarih: 2019.04.24
- *
- * Not: Bu dosyada hatalar var.
  */
 #include <iostream>
 #include <fstream>
@@ -12,10 +10,10 @@
 class DosyaIslemleri
 {
 public:
-  std::string dosya_ismi;
+  const char* dosya_ismi;
 
   // Yapici Fonksiyon
-  DosyaIslemleri(char dosya_ismi_[])
+  DosyaIslemleri(const char* dosya_ismi_)
   {
     dosya_ismi = dosya_ismi_;
   }
@@ -29,6 +27,7 @@ public:
       while(text[i] != '\0')
       {
         dosya << text[i] << std::endl;
+        i++;
       }
     }
     dosya.close();
@@ -67,7 +66,10 @@ public:
         if(satir == eski) {
           tmp << yeni << std::endl;
         } else {
-          tmp << satir << std::endl;
+          tmp << satir;
+          if(!eski_dosya.eof()) {
+            tmp << "\n";
+          }
         }
       }while(!eski_dosya.eof());
 
@@ -86,13 +88,16 @@ public:
 
 //Main
 int main(int argc, char *argv[]) {
-  char my_name[12] = {"a", "l", "i", " ", "i", "h", "s", "a", "n", "\0"};
+  char my_name[10] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '\0'};
   DosyaIslemleri dosya("ismim.txt");
 
   dosya.harf_harf_yaz(my_name);
-//  dosya.oku();
+  dosya.oku();
 //  dosya.sil();
-//  dosya.guncelle("a", "A");
-//  dosya.guncelle("i", "I");
+  dosya.guncelle("1", "6"); // 1'leri 6 yap
+  std::cout << "\nyeni hali:\n";
+  dosya.oku();
+  dosya.guncelle("2", "7"); // 2'leri 7 yap
+  dosya.guncelle("3", "8"); // 3'leri 8 yap
 }
 ```
