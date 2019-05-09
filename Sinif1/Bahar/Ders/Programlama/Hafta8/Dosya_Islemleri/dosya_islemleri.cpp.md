@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
   if(dosya_oku.is_open()) {
     /* Dosyanin her satiri while dongusu icerisinde "satir"
      * degiskenine tanimlanacak. Boylece dongu icerisinde
-     * Dosyanin icindeki satirlar ekrana bastirilabilir.
+     * dosyanin icindeki satirlar ekrana bastirilabilir.
      */
     std::cout << '\n';
     std::string satir;

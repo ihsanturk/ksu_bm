@@ -10,8 +10,8 @@
 //Main
 int main(int argc, char *argv[])
 {
-  int min = 100;
-  int max = 200;
+  int min = 1000;
+  int max = 2000;
 
   int sayi = min;
   if(sayi < 2) sayi = 2;
