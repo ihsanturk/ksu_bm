@@ -1,6 +1,6 @@
 ```cpp
 /*
- * Konu: Çok Biçimlilik, Header Dosyaları
+ * Konu: Çok Biçimlilik ve Header Dosyaları
  * Tarih: 09.05.2019
  */
 
