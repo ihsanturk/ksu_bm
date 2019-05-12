@@ -1,5 +1,8 @@
 ```cpp
 //NESNE YÖNELÝMLÝ PROGRAMLAMA LAB 6(09.05.2019)
+/*
+ * Konu: Genel Tekrar Zeynep Hoca
+ */
 #include<iostream>
 using namespace std;
 class Ucak
