@@ -75,7 +75,7 @@ Bu sayfadaki dersler Kahramanmaraş Sütçü İmam Üniversitesi'nde verilmişti
           * [Header Dosyası](Sinif1/Bahar/Uygulama/Persembe/hafta9/ucak.h.md)
           * [Header Dosyasına Ait Cpp Dosyası](Sinif1/Bahar/Uygulama/Persembe/hafta9/ucus.cpp.md)
           * [Header Dosyası](Sinif1/Bahar/Uygulama/Persembe/hafta9/ucus.h.md)
-          * [Genel Tekrar Zeynep Hoca](Sinif1/Bahar/Uygulama/Persembe/hafta9/ucus_otomasyonu_zeynep_hoca.cpp.md)
+          * [Genel Tekrar Zeynep Hoca](Sinif1/Bahar/Uygulama/Persembe/hafta9/ucus_otomasyonu_zeynep_hoca.cpp.md)
         * [Kutu Sınıfı](Sinif1/Bahar/Uygulama/Persembe/kutu_sinifi.cpp.md)
         * [Sıkıştırma](Sinif1/Bahar/Uygulama/Persembe/run_lenght_encoding.cpp.md)
         * [Kalıtım Zeynep Hoca](Sinif1/Bahar/Uygulama/Persembe/run_lenght_encoding_zeynpe_hoca.cpp.md)

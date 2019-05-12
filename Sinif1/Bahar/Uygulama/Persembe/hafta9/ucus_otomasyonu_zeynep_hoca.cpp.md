@@ -1,5 +1,5 @@
 ```cpp
-//NESNE YÖNELİMLİ PROGRAMLAMA LAB 6(09.05.2019)
+//NESNE YÃ–NELÃMLÃ PROGRAMLAMA LAB 6(09.05.2019)
 /*
  * Konu: Genel Tekrar Zeynep Hoca
  */
@@ -12,7 +12,7 @@ class Ucak
 		int ucakId;
 		int kapasite;
 	public:
-		//ucak sınıfının kurucu metodu
+		//ucak sÃ½nÃ½fÃ½nÃ½n kurucu metodu
 		Ucak(int ucakId, int kapasite)
 		{
 			this->ucakId=ucakId;
@@ -29,7 +29,7 @@ class Pilot
 		int pilotId;
 		string Adi;
 	public:
-		//pilot sınıfının kurucu metodu
+		//pilot sÃ½nÃ½fÃ½nÃ½n kurucu metodu
 		Pilot(int pilotId, string Adi)
 		{
 			this->pilotId=pilotId;
@@ -40,7 +40,7 @@ class Pilot
 			cout<<"pilot id: "<<pilotId<<", pilotun adi:"<<Adi<<endl;
 		}
 };
-//Ucus sınıfı Ucak ve Pilot sınıflarından türetilmiştir.
+//Ucus sÃ½nÃ½fÃ½ Ucak ve Pilot sÃ½nÃ½flarÃ½ndan tÃ¼retilmiÃ¾tir.
 class Ucus: public Ucak, public Pilot
 {
 	private:
@@ -49,13 +49,13 @@ class Ucus: public Ucak, public Pilot
 		char sourceKod;
 		char destKod;
 	public:
-		//kalıtım ile türetilmiş bir sınıfın kurucu metodu, kendisinden türediği
-		// temel sınıfların da kurucu metodlarını içermelidir.Bu nedenle kurucu
-		//metodda temel sınıfların kurucu metodlarının parametreleri de bulunur
+		//kalÃ½tÃ½m ile tÃ¼retilmiÃ¾ bir sÃ½nÃ½fÃ½n kurucu metodu, kendisinden tÃ¼rediÃ°i
+		// temel sÃ½nÃ½flarÃ½n da kurucu metodlarÃ½nÃ½ iÃ§ermelidir.Bu nedenle kurucu
+		//metodda temel sÃ½nÃ½flarÃ½n kurucu metodlarÃ½nÃ½n parametreleri de bulunur
 		Ucus(int ucakId, int kapasite,int pilotId, string Adi, int ucusKodu,
 			char sourceKod,char destKod):
-			Ucak(ucakId,kapasite),//Ucak sınıfının kurucu metodu çağrıldı
-			Pilot(pilotId,Adi)	//Pilot sınıfının kurucu metodu çağrıldı
+			Ucak(ucakId,kapasite),//Ucak sÃ½nÃ½fÃ½nÃ½n kurucu metodu Ã§aÃ°rÃ½ldÃ½
+			Pilot(pilotId,Adi)	//Pilot sÃ½nÃ½fÃ½nÃ½n kurucu metodu Ã§aÃ°rÃ½ldÃ½
 		{
 			this->ucusKodu=ucusKodu;
 			this->sourceKod=sourceKod;
@@ -74,7 +74,7 @@ class Ucus: public Ucak, public Pilot
 int main()
 {
 	int ucusSayisi=3;
-	//Ucus sınıfından bir pointer dizisi tanımlanır ve ilklendirilir
+	//Ucus sÃ½nÃ½fÃ½ndan bir pointer dizisi tanÃ½mlanÃ½r ve ilklendirilir
 	Ucus *ucusPtr=new Ucus[3]{{5,100,2,"Ahmet",203,'T','M'},
 				  {10,200,4,"Mehmet",406,'K','R'},
 				  {2,50,1,"Ali",101,'F','M'}};
