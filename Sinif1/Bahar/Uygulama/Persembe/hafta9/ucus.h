@@ -1,3 +1,7 @@
+/*
+ * Konu: Header Dosyası
+ */
+
 #include "ucak.h"
 #include "pilot.h"
 

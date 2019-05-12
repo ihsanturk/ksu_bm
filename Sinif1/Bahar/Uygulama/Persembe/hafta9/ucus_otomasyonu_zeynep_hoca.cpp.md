@@ -3,6 +3,7 @@
 /*
  * Konu: Genel Tekrar Zeynep Hoca
  */
+
 #include<iostream>
 using namespace std;
 class Ucak

@@ -1,3 +1,7 @@
+/*
+ * Konu: Header Dosyası
+ */
+
 #include <iostream>
 
 using namespace std;
@@ -11,4 +15,3 @@ public:
   int topla(int x, int y, int z);
   int topla(int w, int x, int y, int z);
 };
-

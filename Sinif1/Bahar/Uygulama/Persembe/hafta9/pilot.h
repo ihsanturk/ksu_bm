@@ -1,3 +1,7 @@
+/*
+ * Konu: Header Dosyası
+ */
+
 #include <iostream>
 
 class Pilot

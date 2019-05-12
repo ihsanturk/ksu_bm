@@ -1,4 +1,8 @@
 ```cpp
+/*
+ * Konu: Header Dosyasına Ait Cpp Dosyası
+ */
+
 #include <ucus.h>
 
 Ucus::Ucus(int ucak_,

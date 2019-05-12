@@ -4,7 +4,6 @@
  * Tarih: 09.05.2019
  */
 
-//#include <iostream>
 #include "opt.h"
 
 int

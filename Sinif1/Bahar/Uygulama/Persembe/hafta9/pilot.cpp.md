@@ -1,4 +1,8 @@
 ```cpp
+/*
+ * Konu: Header Dosyasına Ait Cpp Dosyası
+ */
+
 #include "pilot.h"
 
 Pilot::Pilot(
@@ -7,6 +11,8 @@ Pilot::Pilot(
 {
   pilot_id = pilot_id_;
   isim = isim_;
+}
+
 void Pilot::PilotTanit()
 {
 
